@@ -147,7 +147,7 @@ export const SurpriseWelcomeModal: React.FC<SurpriseWelcomeModalProps> = ({ isOp
                 7 năm qua — 2,557 ngày cùng chia ngọt sẻ bùi, cùng vượt qua từng khó khăn thử thách, cùng nhau vun vén tổ ấm. Dù thời gian có trôi đi, thì trong mắt anh, Bảo Ngọc vẫn luôn dịu dàng, rạng ngời và là bến đỗ bình yên nhất.
               </p>
               <p>
-                Chúc em tuổi mới luôn ngập tràn niềm vui, sức khỏe và luôn mỉm cười hạnh phúc. Anh hứa sẽ luôn ở bên cạnh, che chở và yêu thương em thêm 70 năm nữa!
+                Chúc em tuổi mới luôn ngập tràn niềm vui, sức khỏe và luôn mỉm cười hạnh phúc. Anh hứa sẽ luôn ở bên cạnh, che chở, yêu thương và đồng hành cùng em mãi mãi!
               </p>
               <p className="text-right font-script text-xl text-rose-300 pt-2">
                 — Chồng của em: Đoàn Đình Hiển —

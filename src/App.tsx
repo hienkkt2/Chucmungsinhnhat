@@ -23,11 +23,16 @@ export default function App() {
 
   const triggerCelebration = () => {
     confetti({
-      particleCount: 40,
-      spread: 70,
-      origin: { y: 0.6 },
+      particleCount: 55,
+      spread: 75,
+      origin: { y: 0.5 },
       colors: ['#f43f5e', '#ec4899', '#fbbf24', '#fda4af', '#ffffff'],
     });
+
+    const target = document.getElementById('gui-qua');
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (

@@ -12,7 +12,7 @@ Anh biết 7 năm qua, vì mải mê bận rộn lo toan cho cuộc sống và g
 
 Cảm ơn em vì đã luôn thấu hiểu, chắt chiu và vun vén cho mái ấm nhỏ từng li từng tí. Cảm ơn sự dịu dàng và nụ cười của em luôn là bến đỗ bình yên nhất của anh. Và anh hứa, những năm tháng sắp tới, anh sẽ nỗ lực nhiều hơn nữa để bù đắp cho em, sẽ nắm tay đưa Bảo Ngọc đi đến những nơi em thích!
 
-Hôm nay, mừng sinh nhật tuổi mới của người vợ tuyệt vời nhất, và mừng kỷ niệm 7 năm ngày cưới của đôi ta — kỷ niệm đám cưới Đồng, son sắt và bền chặt. Anh hứa sẽ luôn ở đây, yêu thương, che chở và đồng hành cùng em thêm 70 năm nữa.
+Hôm nay, mừng sinh nhật tuổi mới của người vợ tuyệt vời nhất, và mừng kỷ niệm 7 năm ngày cưới của đôi ta — kỷ niệm đám cưới Đồng, son sắt và bền chặt. Anh hứa sẽ luôn ở đây, yêu thương, che chở và đồng hành cùng em mãi mãi.
 
 Chúc vợ yêu của anh sinh nhật thật rực rỡ, luôn vui tươi, xinh đẹp và ngập tràn hạnh phúc bên anh!`;
 
@@ -24,8 +24,10 @@ export const LoveLetter: React.FC = () => {
   useEffect(() => {
     const saved = localStorage.getItem('hien_ngoc_love_letter');
     if (saved) {
-      setLetterContent(saved);
-      setDraftContent(saved);
+      const updated = saved.replace('thêm 70 năm nữa', 'mãi mãi');
+      setLetterContent(updated);
+      setDraftContent(updated);
+      localStorage.setItem('hien_ngoc_love_letter', updated);
     }
   }, []);
 

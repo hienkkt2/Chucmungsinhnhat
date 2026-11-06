@@ -152,9 +152,6 @@ export const BirthdayCakeCandle: React.FC<BirthdayCakeCandleProps> = ({ onWishBl
               <label className="block text-xs sm:text-sm text-rose-200/90 font-medium">
                 🎁 Nhập số tiền mong muốn chứa đựng tình cảm của vợ:
               </label>
-              <p className="text-[11px] text-rose-300/70">
-                (Tối đa 999.999đ — Con số biểu trưng tình yêu vĩnh cửu)
-              </p>
             </div>
 
             {/* Money input box */}
@@ -165,7 +162,7 @@ export const BirthdayCakeCandle: React.FC<BirthdayCakeCandleProps> = ({ onWishBl
                   inputMode="numeric"
                   value={numericValue > 0 ? numericValue.toLocaleString('vi-VN') : amountInput}
                   onChange={handleInputChange}
-                  placeholder="Nhập số tiền vợ ước (vd: 999.999)..."
+                  placeholder="Nhập số tiền vợ ước..."
                   className={`w-full bg-[#150711] border rounded-2xl px-4 py-3 text-center text-lg sm:text-xl font-bold font-serif tabular-nums tracking-wider focus:outline-none transition-colors ${
                     isOverLimit
                       ? 'border-red-500 text-red-300 focus:border-red-400'
