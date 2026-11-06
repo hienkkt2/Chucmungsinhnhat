@@ -126,13 +126,13 @@ export default function App() {
               </div>
             </div>
 
-            {/* Right Hero Image */}
-            <div className="relative md:col-span-5 h-56 md:h-full min-h-[220px] overflow-hidden">
+            {/* Right Hero Image: Real Wedding Photo of Hiển & Bảo Ngọc */}
+            <div className="relative md:col-span-5 h-80 sm:h-96 md:h-full min-h-[320px] overflow-hidden">
               <img
-                src="/src/assets/images/wedding_rings_rose_1793842990197.jpg"
-                alt="Nhẫn cưới kỷ niệm 7 năm của Đoàn Đình Hiển và Bùi Bảo Ngọc"
+                src="/assets/aistudio/image_33ea8bc4.png"
+                alt="Đoàn Đình Hiển và Bùi Bảo Ngọc trong ngày cưới"
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover object-center filter brightness-95"
+                className="w-full h-full object-cover object-top filter brightness-95 hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#160913] via-transparent to-transparent opacity-80" />
             </div>

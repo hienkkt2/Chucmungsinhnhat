@@ -108,17 +108,31 @@ export const SurpriseWelcomeModal: React.FC<SurpriseWelcomeModalProps> = ({ isOp
             </button>
           </div>
         ) : (
-          <div className="py-3 flex flex-col items-center animate-fade-in">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-300 text-xs font-medium mb-4">
-              <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-              <span>06.11.2019 — 06.11.2026 · Tròn 7 Năm Đồng Hành</span>
+          <div className="py-2 flex flex-col items-center animate-fade-in">
+            {/* Real Couple Photo Avatar */}
+            <div className="relative mb-3 group">
+              <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full p-1 bg-gradient-to-tr from-amber-400 via-rose-500 to-pink-500 shadow-xl shadow-rose-900/50">
+                <img
+                  src="/assets/aistudio/image_33ea8bc4.png"
+                  alt="Đoàn Đình Hiển và Bùi Bảo Ngọc"
+                  className="w-full h-full object-cover object-top rounded-full"
+                />
+              </div>
+              <div className="absolute -bottom-1 -right-1 bg-rose-600 text-white rounded-full p-1 shadow-md border-2 border-[#12070f]">
+                <Heart className="w-3.5 h-3.5 fill-current" />
+              </div>
             </div>
 
-            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-rose-100 mb-2">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-300 text-xs font-medium mb-3">
+              <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+              <span>06.11.2019 — 06.11.2026 · Tròn 7 Năm Son Sắt</span>
+            </div>
+
+            <h3 className="text-xl sm:text-3xl font-serif font-bold text-rose-100 mb-1">
               Chúc Mừng Sinh Nhật Bảo Ngọc &amp; Kỷ Niệm 7 Năm Ngày Cưới!
             </h3>
 
-            <p className="font-script text-2xl sm:text-3xl text-rose-300 mb-4">
+            <p className="font-script text-xl sm:text-2xl text-rose-300 mb-4">
               &ldquo;Cảm ơn em vì đã là người vợ tuyệt vời nhất của anh&rdquo;
             </p>
 
