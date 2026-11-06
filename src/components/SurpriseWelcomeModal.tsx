@@ -91,11 +91,11 @@ export const SurpriseWelcomeModal: React.FC<SurpriseWelcomeModalProps> = ({ isOp
             </p>
 
             <h2 className="text-2xl sm:text-4xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-200 via-pink-100 to-amber-200 mb-4 leading-tight">
-              Món Quà Kỷ Niệm 7 Năm Ngày Cưới & Sinh Nhật Em
+              Món Quà Kỷ Niệm 7 Năm Ngày Cưới & Sinh Nhật Vợ
             </h2>
 
             <p className="text-sm sm:text-base text-rose-100/80 max-w-lg mb-8 leading-relaxed font-light">
-              Anh chuẩn bị không gian số này để lưu giữ mãi mãi từng nụ cười, từng chuyến đi và tình yêu của vợ chồng mình. Chạm vào đây để mở ra món quà bất ngờ của anh nhé!
+              Chồng chuẩn bị không gian số này để lưu giữ mãi mãi kỉ niệm của vợ chồng mình. Chạm vào đây để mở ra món quà bất ngờ nhé!
             </p>
 
             <button
