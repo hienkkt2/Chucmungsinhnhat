@@ -13,6 +13,7 @@ import { SurpriseWelcomeModal } from './components/SurpriseWelcomeModal';
 import { LoveCounter } from './components/LoveCounter';
 import { LoveLetter } from './components/LoveLetter';
 import { BirthdayCakeCandle } from './components/BirthdayCakeCandle';
+import { BirthdayGiftQR } from './components/BirthdayGiftQR';
 import { AnniversaryCertificate } from './components/AnniversaryCertificate';
 import { MusicPlayerBar } from './components/MusicPlayerBar';
 
@@ -62,6 +63,9 @@ export default function App() {
             </a>
             <a href="#thoi-nen" className="hover:text-white transition-colors">
               Thổi Nến Sinh Nhật
+            </a>
+            <a href="#gui-qua" className="hover:text-white transition-colors">
+              Gửi Quà Sinh Nhật
             </a>
             <a href="#chung-nhan" className="hover:text-white transition-colors">
               Bản Chứng Nhận
@@ -154,7 +158,12 @@ export default function App() {
           <BirthdayCakeCandle />
         </section>
 
-        {/* 5. Bản Chứng Nhận Hạnh Phúc (Dưới cùng) */}
+        {/* 5. Gửi Quà Chúc Mừng Sinh Nhật (MBBank VietQR) */}
+        <section id="gui-qua" className="scroll-mt-20">
+          <BirthdayGiftQR />
+        </section>
+
+        {/* 6. Bản Chứng Nhận Hạnh Phúc (Dưới cùng) */}
         <section id="chung-nhan" className="scroll-mt-20">
           <AnniversaryCertificate />
         </section>
